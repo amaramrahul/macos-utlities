@@ -1,0 +1,348 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+alt+7",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+y",
+        "command": "-omni-search:quick-search"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalFocus && terminalProcessSupported && terminalTextSelected"
+    },
+    {
+        "key": "cmd+c",
+        "command": "-workbench.action.terminal.copySelection",
+        "when": "terminalFocus && terminalProcessSupported && terminalTextSelected"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "workbench.action.terminal.paste",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+v",
+        "command": "-workbench.action.terminal.paste",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+cmd+b",
+        "command": "-editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "alt+7",
+        "command": "outline.focus"
+    },
+    {
+        "key": "cmd+7",
+        "command": "-outline.focus"
+    },
+    {
+        "key": "alt+f12",
+        "command": "workbench.action.terminal.focus",
+        "when": "terminalProcessSupported && !terminalFocus"
+    },
+    {
+        "key": "cmd+f12",
+        "command": "-workbench.action.terminal.focus",
+        "when": "terminalProcessSupported && !terminalFocus"
+    },
+    {
+        "key": "alt+f12",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+f12",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+f7",
+        "command": "references-view.find",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "cmd+f7",
+        "command": "-references-view.find",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "alt+escape",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "shift+escape",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-workbench.view.explorer",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+0",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "cmd+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "alt+0",
+        "command": "workbench.actions.view.problems"
+    },
+    {
+        "key": "cmd+0",
+        "command": "-workbench.actions.view.problems"
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.view.search",
+        "when": "!searchViewletVisible"
+    },
+    {
+        "key": "cmd+3",
+        "command": "-workbench.view.search",
+        "when": "!searchViewletVisible"
+    },
+    {
+        "key": "shift+alt+f9",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "cmd+5",
+        "command": "-workbench.view.debug",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+9",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "cmd+9",
+        "command": "-workbench.view.scm",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentFormattingProvider && editorHasSelection && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+cmd+l",
+        "command": "-editor.action.formatSelection",
+        "when": "editorHasDocumentFormattingProvider && editorHasSelection && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f10",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "shift+cmd+f10",
+        "command": "-workbench.action.tasks.runTask"
+    },
+    {
+        "key": "shift+cmd+f9",
+        "command": "-workbench.view.debug"
+    },
+    {
+        "key": "ctrl+shift+alt+n",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+cmd+n",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "workbench.action.toggleFullScreen"
+    },
+    {
+        "key": "ctrl+cmd+f",
+        "command": "-workbench.action.toggleFullScreen"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find",
+        "when": "!editorTextFocus || !vim.active || !vim.use<C-f> || inDebugRepl || vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "editor.action.startFindReplaceAction",
+        "when": "!editorTextFocus || !vim.active || !vim.use<C-r> || inDebugRepl"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "cmd+c",
+        "command": "-editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "editor.action.clipboardCutAction"
+    },
+    {
+        "key": "cmd+x",
+        "command": "-editor.action.clipboardCutAction"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "editor.action.clipboardPasteAction",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "cmd+v",
+        "command": "-editor.action.clipboardPasteAction"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "cmd+a",
+        "command": "-editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.openRecent",
+        "when": "!editorTextFocus || !vim.active || !vim.use<C-e> || inDebugRepl"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen && (inDebugRepl || !editorTextFocus || !vim.active || !vim.use<C-e>)"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "-editor.action.clipboardCopyAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "editor.action.clipboardPasteAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "-editor.action.clipboardPasteAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "editor.action.clipboardCutAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "-editor.action.clipboardCutAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "-workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "omni-search-ui:quick-search"
+    },
+    {
+        "key": "cmd+y",
+        "command": "-omni-search-ui:quick-search"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.showAllSymbols"
+    }
+]

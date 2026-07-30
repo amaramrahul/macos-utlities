@@ -1,0 +1,105 @@
+{
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "interactive-smartlog.pull": "arc pull",
+    "interactive-smartlog.fetch": "jf get",
+    "workbench.colorTheme": "Quiet Light",
+    "vim.vimrc.enable": true,
+    "vim.visualstar": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "commands": [
+                "redo"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "x"
+            ],
+            "commands": [
+                "editor.action.openLink"
+            ]
+        }
+    ],
+    "fb.doctor.kerberos-keychain": true,
+    "hg.jumpToNextConflictOnSave": "Jump On Save And Open ISL When Done",
+    "interactive-smartlog.autoRunMergeDrivers": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "nuclide.cpp",
+        "files.trimTrailingWhitespace": false
+    },
+    "interactive-smartlog.right-drawer-width": 516,
+    "interactive-smartlog.bottom-drawer-height": 500,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "fb.ms-remote-connections.odtypes": [
+        {
+            "type": "ondemand_www",
+            "flavor": "default",
+            "folders": [
+                "/data/sandcastle/boxes/www/"
+            ]
+        },
+        {
+            "type": "ondemand_mobile",
+            "flavor": "default",
+            "folders": []
+        },
+        {
+            "type": "ondemand_dataswarm",
+            "flavor": "default",
+            "folders": []
+        }
+    ],
+    "workbench.startupEditor": "none",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/bin/zsh",
+        },
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.editor.closeEmptyGroups": false,
+    "editor.tabCompletion": "on",
+    "terminal.integrated.systemd.shouldUse": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.ignorecase": false,
+    "wasabi.interactiveDevelopment.introMessageNumTimesShown": 10,
+    "window.restoreWindows": "none",
+    "interactive-smartlog.install-sapling-isl-on-new-hosts": true,
+    "meta.global.history.enabled": true,
+    "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup",
+    "interactive-smartlog.prefer-new-isl": true,
+    "editor.formatOnSave": true,
+    "remora.focusOnStartup": false,
+    "[python]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "nuclide.pyls"
+    },
+    "[java]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "nuclide.java"
+    },
+    "[kotlin]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "nuclide.java"
+    },
+    "arcinfer.runOnSave": true,
+    "window.zoomLevel": -1,
+    "[rust]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "facebook.rust-analyzer"
+    },
+    "extensions.experimental.deferredStartupFinishedActivation": true
+}
