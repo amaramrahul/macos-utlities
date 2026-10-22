@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eu
+set -euo pipefail
 
 backup_dir=$(dirname "$0")/backup
 
